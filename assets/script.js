@@ -16,6 +16,12 @@ if(useLowerCase){
 if(useUpperCase){
   functionList.push(getUpperCaseLetter);
 }
+if(useSpecialCharacter){
+  functionList.push(getSpecialCharacter);
+}
+if(useNumbers){
+  functionList.push(getNumericCharacter);
+}
 
 function getRandomNumber(max) {
   return (Math.floor(Math.random() * max))
